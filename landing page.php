@@ -1,7 +1,8 @@
+<!DOCTYPE.html>
 <?php
 include("landing.php");
 ?>
-<!DOCTYPE.html>
+
 <html>
 <head>
     <title>search box</title>
@@ -40,5 +41,7 @@ include("landing.php");
         <option>white</option>
         <option>black</option>
         <option>red</option>
+
+        <a href="index.html"> back to the home page </a>
 </body>
 </html>
