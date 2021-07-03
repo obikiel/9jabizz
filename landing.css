@@ -1,10 +1,9 @@
 body {
     background-color:none;
-    width:100%;
 }
 #main{
     border:none;
-    width: 100%;
+    width: auto;
     background-color:rgb(63, 151, 63);
     height:80px;
 
@@ -15,7 +14,7 @@ body {
     height:40px;
     width:600px;
     text-align: center;
-    position:absolute;
+    position:relative;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
     border:none;
@@ -23,6 +22,7 @@ body {
 .submit{
     height:40px;
     margin-left:100px
+    padding:3px;
     position:fixed;
     margin-top:20px;
     border: none;
@@ -46,9 +46,4 @@ body {
     cursor: pointer;
   }
   
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-  }
-  
-  
+ 
