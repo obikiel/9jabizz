@@ -34,17 +34,13 @@ include("landing.php");
     </br></br>
 
 
-   <label for="mycolor">Enter a color:</label>
+   <label for="mycolor">enter an item:</label>
    <input type="text" name="mycolor" id="mycolor" list="colorlist">
     <datalist id="colorlist">
         <option>Dark Blue</option>
         <option>white</option>
         <option>black</option>
         <option>red</option>
-
-        <label for="mycolor">select a product:</label>
-   <input type="text" name="mycolor" id="mycolor" list="colorlist">
-    <datalist id="colorlist">
         <option>shoe</option>
         <option>bag</option>
         <option>phone</option>
