@@ -42,6 +42,15 @@ include("landing.php");
         <option>black</option>
         <option>red</option>
 
+        <label for="mycolor">select a product:</label>
+   <input type="text" name="mycolor" id="mycolor" list="colorlist">
+    <datalist id="colorlist">
+        <option>shoe</option>
+        <option>bag</option>
+        <option>phone</option>
+        <option>computers</option>
+
+
         <a href="index.html"> back to the home page </a>
 </body>
 </html>
