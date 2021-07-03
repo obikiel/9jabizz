@@ -37,10 +37,9 @@ include("landing.php");
    <label for="mycolor">enter an item:</label>
    <input type="text" name="mycolor" id="mycolor" list="colorlist">
     <datalist id="colorlist">
-        <option>Dark Blue</option>
-        <option>white</option>
-        <option>black</option>
-        <option>red</option>
+        <option>chair</option>
+        <option>table</option>
+        <option>printer</option>
         <option>shoe</option>
         <option>bag</option>
         <option>phone</option>
