@@ -33,12 +33,12 @@ include("landing.php");
 
 
    <label>Countries: </label>
-   <input type="text" id="input" placeholder="search" />
+   <input type="text" id="input" placeholder="please enter country" />
    
    <div id ="major">
        <ul id="ul"></ul>
    </div>
-
+<br><br>
     <a href="index.html"> back to the home page </a>
 
 <script src="landing.js"></script>

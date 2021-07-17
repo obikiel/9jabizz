@@ -1,9 +1,10 @@
 body {
     background-color:none;
+    width:100%;
 }
 #main{
     border:none;
-    width: auto;
+    width: 100%;
     background-color:rgb(63, 151, 63);
     height:80px;
 
@@ -23,7 +24,7 @@ body {
     height:42px;
     margin-left:0px;
     padding:3px;
-    position:relative;
+    position:absolute;
     margin-top:20px;
     border: none;
     background-color:rgb(20, 230, 18);
@@ -37,29 +38,6 @@ body {
     width:200px;
     text-align: center;
 }
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
- 
-  
- .landing{
-   display:flex;
- }
- #colorlist{
-   height:70px;
-   width:70px;
- }
- #mycolor{
-   height: 70px;
-   width: 70px;
-   border:3px solid black;
- }
  li{
    list-style: none;
  }
@@ -72,3 +50,7 @@ body {
    overflow: scroll;
    margin-left:70px;
  }
+#input{
+  border:2px solid black;
+
+}
