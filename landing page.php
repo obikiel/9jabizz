@@ -1,16 +1,14 @@
-<!DOCTYPE.html>
 <?php
 include("landing.php");
 ?>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>search box</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="landing.css" rel="stylesheet">
-    <script src="landing.js"></script>
     
 </head>
 <body>
@@ -34,18 +32,15 @@ include("landing.php");
     </br></br>
 
 
-   <label for="mycolor">enter an item:</label>
-   <input type="text" name="mycolor" id="mycolor" list="colorlist">
-    <datalist id="colorlist">
-        <option>chair</option>
-        <option>table</option>
-        <option>printer</option>
-        <option>shoe</option>
-        <option>bag</option>
-        <option>phone</option>
-        <option>computers</option>
+   <label>Countries: </label>
+   <input type="text" id="input" placeholder="search" />
+   
+   <div id ="major">
+       <ul id="ul"></ul>
+   </div>
 
+    <a href="index.html"> back to the home page </a>
 
-        <a href="index.html"> back to the home page </a>
+<script src="landing.js"></script>
 </body>
 </html>
