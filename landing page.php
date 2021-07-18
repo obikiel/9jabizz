@@ -35,7 +35,7 @@ include("landing.php");
    <label>Countries: </label>
    <input type="text" id="input" placeholder="please enter country" />
    
-   <div id ="major">
+   <div id ="major" >
        <ul id="ul"></ul>
    </div>
 <br><br>

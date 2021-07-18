@@ -40,6 +40,7 @@ body {
 }
  li{
    list-style: none;
+   margin-left: 3px;
  }
  #major{
    border:none;
@@ -53,4 +54,8 @@ body {
 #input{
   border:2px solid black;
 
+}
+#body{
+  background-color: black;
+  border: 1px solid black;
 }

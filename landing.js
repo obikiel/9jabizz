@@ -26,11 +26,11 @@ let result = [];
             console.log(result);
 
           });
-        
-
-    
+  
 
 
+
+          
 
 /*function myFunction() {
   // Declare variables
